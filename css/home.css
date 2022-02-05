@@ -1,0 +1,44 @@
+.home .header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home .header > * {
+  margin: 5px;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.home .header .sorting,
+.home .header .filtering {
+  display: flex;
+}
+
+.home .header .sorting select,
+.home .header .filtering select {
+  flex-grow: 1;
+  margin-left: 3px;
+}
+
+.home .header .favourites {
+  width: 140px;
+  cursor: pointer;
+  opacity: 0.8;
+  border: 0;
+  background-color: #8080804a;
+  outline: none;
+  padding: 3px;
+}
+
+.home .header .favourites.selected {
+  background-color: #ff5722;
+}
+
+.home .restuarants {
+  background: #8080803b;
+  padding: 10px 5px;
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  margin: 15px 0px;
+}

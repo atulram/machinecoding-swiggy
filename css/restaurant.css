@@ -1,0 +1,33 @@
+.home .restuarants .restaurant {
+  background: #ffffff;
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.home .restuarants .restaurant .img-holder {
+  flex-grow: 1;
+  background: lightgrey;
+  opacity: 0.8;
+}
+
+.home .restuarants .restaurant .restaurant-info {
+  margin-top: 10px;
+}
+
+.home .restuarants .restaurant .fa-star {
+  position: absolute;
+  right: 10px;
+  top: 10;
+  z-index: 1;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.home .restuarants .restaurant .selected {
+  color: #ff5722;
+}

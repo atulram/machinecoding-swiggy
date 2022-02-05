@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  font: 14px "Helvetica Neue", Arial, Helvetica, sans-serif;
+  background-color: #ebeff3;
+  position: relative;
+}
+
+.maincontainer {
+  padding: 30px 20px;
+}
+
+@font-face {
+  font-family: "Glyphicons Halflings";
+
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/glyphicons-halflings-regular.woff") format("woff"),
+    url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"),
+    url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular")
+      format("svg");
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: "Glyphicons Halflings";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-trash:before {
+  content: "\e020";
+}
+
+.glyphicon-remove:before {
+  content: "\e014";
+}
+
+.glyphicon-arrow-right:before {
+  content: "\e092";
+}
+.glyphicon-arrow-up:before {
+  content: "\e093";
+}
+.glyphicon-ok:before {
+  content: "\e013";
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(219, 219, 219);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgb(162, 159, 159);
+}

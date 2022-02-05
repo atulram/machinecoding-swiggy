@@ -1,0 +1,86 @@
+[
+    {
+        "id": "Paradise",
+        "name": "Paradise",
+        "eta": "45min",
+        "tags": ["biryani"],
+        "rating": 4.1
+    },
+    {
+        "id": "Bawarchi",
+        "name": "Bawarchi",
+        "eta": "10min",
+        "tags": ["biryani", "chinese"],
+        "rating": 4.3
+    },
+    {
+        "id": "KFC",
+        "name": "KFC",
+        "eta": "20min",
+        "tags": ["burger"],
+        "rating": 4.5
+    },
+    {
+        "id": "Subway",
+        "name": "Subway",
+        "eta": "10min",
+        "tags": ["burger"],
+        "rating": 3.0
+    },
+    {
+        "id": "BurgerKing",
+        "name": "Burger King",
+        "eta": "10min",
+        "tags": ["burger", "biryani"],
+        "rating": 4.7
+    },
+    {
+        "id": "CreamStone",
+        "name": "Cream Stone",
+        "eta": "30min",
+        "tags": ["ice cream"],
+        "rating": 4.8
+    },
+    {
+        "id": "naturals",
+        "name": "Naturals Ice Cream",
+        "eta": "20min",
+        "tags": ["ice cream"],
+        "rating": 4.6
+    },
+    {
+        "id": "Mehfil",
+        "name": "Mehfil",
+        "eta": "45min",
+        "tags": ["biryani"],
+        "rating": 3.5
+    },
+    {
+        "id": "ITC",
+        "name": "ITC",
+        "eta": "45min",
+        "tags": ["biryani"],
+        "rating": 4.2
+    },
+    {
+        "id": "MacDonalds",
+        "name": "MacDonalds",
+        "eta": "45min",
+        "tags": ["burger", "biryani"],
+        "rating": 3.3
+    },
+    {
+        "id": "HyderabadChefs",
+        "name": "Hyderabad Chefs",
+        "eta": "45min",
+        "tags": ["biryani"],
+        "rating": 2.8
+    },
+    {
+        "id": "ABs",
+        "name": "ABs",
+        "eta": "55min",
+        "tags": ["biryani"],
+        "rating": 4.2
+    }
+]
